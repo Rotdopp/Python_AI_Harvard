@@ -1,3 +1,7 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+.idea/
+git rm -r --cached .idea
+git commit -m "Removed .idea from git"
+git push
